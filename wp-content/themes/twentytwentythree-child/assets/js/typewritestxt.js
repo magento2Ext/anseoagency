@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){new TypeWriter('#typewritetext',['AN SEO AGENCY','not Generic','not boring','not simple','not Rigid','not Stiff'],{writeDelay:100})})

@@ -1,0 +1,66 @@
+@charset "utf-8";
+.memberlistcontianer {
+  width: calc(100% + 36px);
+  margin: 0 0 0 -18px;
+  clear: both;
+}
+a.memberlistbx {
+    cursor: url(../../../../../../../../wp-content/themes/twentytwentythree-child/assets/images/drag-left-right.png),
+    auto;
+  width: 100%;
+  margin: 0;
+  float: left;
+  text-decoration: none;
+}
+a.memberlistbx .memberimgbx {
+  max-width: 327px;
+}
+li.hs__item a.memberlistbx .memberimgbx {
+  max-width: 100%;
+}
+a.memberlistbx .memberimgbx img {
+  width: 100%;
+}
+.membername {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Rubik";
+  font-weight: 600;
+  color: #373737;
+  line-height: 36px;
+  margin: 15px 0 0;
+}
+.membername span {
+  display: block;
+  font-size: 14px;
+  color: #373737;
+  font-weight: 400;
+  line-height: 20px;
+}
+.teamcontainer.memberlistcontianer .hs {
+  cursor: url(../../../../../../../../wp-content/themes/twentytwentythree-child/assets/images/drag-left-right.png),
+    auto;
+}
+
+@media (max-width: 992px) {
+  .teamcontainer.memberlistcontianer .hs__item:first-child {
+    margin-left: 0;
+  }
+  .teamcontainer.memberlistcontianer .hs {
+    padding: 0 20px;
+  }
+  .memberlistcontianer .hs__item {
+    flex-basis: calc(100% / 3 - (10px * 2) - (20px / 3));
+  }
+}
+@media (max-width: 768px) {
+  .memberlistcontianer .hs__item {
+    flex-basis: calc(100% / 2 - (10px * 2) - (20px / 2));
+  }
+}
+@media (max-width: 575px) {
+  .memberlistcontianer .hs__item {
+    flex-basis: calc(100% / 1 - (10px * 2) - (20px / 1));
+  }
+}

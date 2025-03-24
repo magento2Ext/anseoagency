@@ -1,0 +1,108 @@
+/* RESET */
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+} 
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+a, a:visited {
+    color: #4d78cc;
+    text-decoration: none;
+}
+
+
+.datagrid {
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    display: inline-block;
+}
+.datagrid table {
+    text-align: left;
+    width: 100%;
+}
+.datagrid {
+    overflow: hidden;
+}
+.datagrid table td, .datagrid table th {
+    padding: 10px 10px;
+    vertical-align: middle;
+}
+.datagrid table tbody th {
+    font-weight: bold;
+color: black;
+}
+.datagrid table tbody td {
+    /*background: #343842;*/
+   /* border-left: 2px solid #21252b;*/
+}
+.datagrid table tbody .alt td {
+    /*background: #282c34;*/
+   /* border-left: 2px solid #21252b;*/
+}
+.datagrid table tbody td:first-child {
+    border-left: none;
+}
+.datagrid table tbody tr:last-child td {
+    border-bottom: none;
+}
+.data-title {
+  /*  font-family: 'Fira Mono', monospace;*/
+    width: 100px;
+}
+.data-input {
+    background-color: transparent !important;
+}
+#color-preview {
+    width:15px;
+    height: 15px;
+    border:2px solid #21252b;
+}
+#color-input-table {
+    margin-bottom: 25px;
+}
+#color-input1 { 
+    width:100%;
+   /* border-bottom:40px solid #282c34;*/
+    padding-bottom: 5px;
+}
+#color-input {
+    width:100%;
+    border-bottom:40px solid #282c34;
+    padding-bottom: 5px;
+}
+#color-input1 input{
+    width:100%;
+    height: 25px;
+/*    background-color: #21252b;*/
+    color: #93979e;
+   /* border: none;*/
+    border: 1px solid;
+    text-align: center;
+   /* font-family: 'Fira Mono', monospace;*/
+}
+#format-output {
+    font-size: 12px;
+}

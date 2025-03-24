@@ -1,0 +1,106 @@
+/*
+    font-family: 'Poppins'; font-weight: normal;
+    font-family: 'Poppins'; font-weight: 500;
+    font-family: 'Poppins'; font-weight: normal; font-style: italic;
+    font-family: 'Poppins'; font-weight: 600;
+    font-family: 'Courier New'; font-weight: normal; font-style: normal;
+*/
+
+.location_list {clear: both}
+.location_list a.servicebx {width: calc(25% - 50px); margin: 0 25px 20px; float: left; cursor: default;}
+.location_list a.servicebx dl {border-radius: 30px; padding: 15px 30px 15px; border-radius: 20px;}
+.location_list a.servicebx dl dt{width: 58px; margin: 0 20px 0 0; float: left; height: 58px; background: #fff; border-radius: 50%; line-height: 58px;}
+.location_list a.servicebx dl dd {width: calc(100% - 80px);font-size: 14px;line-height: 20px;margin: 0;padding: 0; font-weight: 600;}
+.location_list a.servicebx dl dd span{display: block; font-size: 20px;}
+
+
+.servicepg.location_list h3{width: 100%; clear: both; font-size: 24px; font-weight: 600; color: #373737; line-height: 32px; margin: 9px 0 48px 0; text-transform: capitalize;}
+
+
+.location_list.archive_location {margin: 80px 0 0 0;}
+.location_list.archive_location a.servicebx {width: calc(33.33% - 50px);margin: 0 25px 64px;float: left;}
+.location_list.archive_location a.servicebx dl {padding: 30px 50px 30px;}
+.location_list.archive_location a.servicebx dl dt {width: 80px; margin: 0 20px 0 0; float: left; height: 80px; background: #fff; border-radius: 50%; text-align: center; line-height: 80px;}
+.location_list.archive_location a.servicebx dl dd {font-size: 16px;line-height: 24px;font-weight: 600;}
+.location_list.archive_location a.servicebx dl dd span{font-size: 24px;}
+
+
+body.page-template-page-location .servicesection {margin-bottom: 0px;}
+body.page-template-page-location .seocasestudy_sec{margin-top: 0px;}
+
+/*responsive styles*/
+@media (max-width: 1900px) {
+    
+
+
+}
+
+@media (max-width: 1599.98px) {
+    
+
+
+    
+}
+/* Extra Large devices (large desktops, less than 1440px) */
+@media (max-width: 1439.98px) {
+    
+    .location_list.archive_location a.servicebx dl {padding: 20px 30px 20px;}    
+    .location_list.archive_location a.servicebx {width: calc(33.33% - 30px); margin: 0 15px 30px;}
+ 
+
+
+}
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+    
+    
+    .location_list.archive_location a.servicebx {width: calc(33.33% - 10px); margin: 0 5px 10px;}
+    .location_list.archive_location a.servicebx dl dt {width: 60px; height: 60px; line-height: 60px;}
+    .location_list.archive_location a.servicebx dl {padding: 10px;}
+    .location_list.archive_location a.servicebx dl dd {font-size: 14px; line-height: 22px;}
+    .location_list.archive_location a.servicebx dl dd span {font-size: 20px;}
+
+  
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+    
+    .location_list.archive_location a.servicebx {width: calc(50% - 10px);}
+   
+}
+
+@media(max-width:768px){
+
+    .location_list a.servicebx dl dd span {font-size: 18px;}
+    .location_list a.servicebx dl dd {font-size: 12px;}
+    
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    
+
+
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    
+    .location_list.archive_location a.servicebx {width: 100%; margin: 0 5px 10px;}
+    .location_list.archive_location a.servicebx dl {padding: 10px 20px;}
+    
+    .location_list.archive_location a.servicebx dl dd span {font-size: 18px;}
+    .location_list.archive_location a.servicebx dl dd {font-size: 12px; line-height: 18px;}
+    
+  
+}
+@media (max-width: 375px) {
+    .abouttxtbanner .bnrtxt {
+       
+    }
+}
+@media (max-width: 360px) {
+   
+    
+}

@@ -1,0 +1,91 @@
+.smk_accordion {
+  position: relative;
+  margin-bottom: 20px
+}
+
+.smk_accordion .accordion_in {
+  border: 1px solid rgba(255, 255, 255, .4);
+  position: relative;
+  z-index: 10;
+  margin-top: -1px;
+  overflow: hidden;
+  border-left: 0 solid red;
+  border-right: 0 solid red
+}
+
+.smk_accordion .accordion_in .acc_head {
+  position: relative;
+  background: 0 0;
+  padding: 20px;
+  font-size: 18px;
+  display: block;
+  cursor: pointer;
+  color: #fff
+}
+
+.smk_accordion .accordion_in .acc_head span {
+  font-size: 26px;
+  float: left;
+  margin: -5px 20px 0 0
+}
+
+.smk_accordion .accordion_in:first-of-type,
+.smk_accordion .accordion_in:first-of-type .acc_head {
+  border-radius: 3px 3px 0 0
+}
+
+.smk_accordion .accordion_in:last-of-type,
+.smk_accordion .accordion_in:last-of-type .acc_content {
+  border-radius: 0 0 3px 3px
+}
+
+.smk_accordion .accordion_in .acc_content {
+  background: 0 0;
+  color: #373737;
+  padding: 0
+}
+
+.smk_accordion .accordion_in h1:first-of-type,
+.smk_accordion .accordion_in h2:first-of-type,
+.smk_accordion .accordion_in h3:first-of-type,
+.smk_accordion .accordion_in h4:first-of-type,
+.smk_accordion .accordion_in h5:first-of-type,
+.smk_accordion .accordion_in h6:first-of-type {
+  margin-top: 5px
+}
+
+.smk_accordion .accordion_in .acc_head .acc_icon_expand {
+  display: block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -9px
+}
+
+.smk_accordion .accordion_in.acc_active .acc_content {
+  display: block
+}
+
+.smk_accordion .accordion_in.acc_active .acc_head {
+  background: 0 0;
+  color: #373737
+}
+
+.smk_accordion.acc_with_icon .accordion_in .acc_head,
+.smk_accordion.acc_with_icon .accordion_in .acc_content {
+  padding-left: 0
+}
+
+@media(max-width:768px) {
+.smk_accordion .accordion_in .acc_head {
+    background: url(../../../../../../../../wp-content/themes/twentytwentythree-child/assets/images/accordion-plus.png)no-repeat 100% center;
+    font-weight: 600;
+    color: #373737
+  }
+
+  .smk_accordion .accordion_in.acc_active .acc_head {
+    background: url(../../../../../../../../wp-content/themes/twentytwentythree-child/assets/images/accordion-minus.png)no-repeat 100% center
+  }
+}

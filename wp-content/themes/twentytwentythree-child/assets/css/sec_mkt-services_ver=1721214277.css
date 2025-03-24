@@ -1,0 +1,394 @@
+@charset "utf-8";
+
+.servicesection {
+  width: 100%;
+  clear: both;
+  margin: 58px 0 0;
+  float: left
+}
+
+.servicesection .sitegradient {
+  height: 1400px;
+  margin: -300px 0 0
+}
+
+.servicesection .sitegradient:before {
+  height: 512px
+}
+
+.servicesection .sitegradient:after {
+  height: 512px
+}
+
+.servicesection .wrapper {
+  position: relative;
+  z-index: 0
+}
+
+.servicecontainer {
+  width: 100%;
+  clear: both;
+  float: left;
+  margin: 80px 0 0;
+  padding: 0
+}
+
+.servicecontainer .servicecont_left {
+  width: 345px;
+  clear: both;
+  float: left;
+  margin: 0;
+  padding: 0;
+  z-index: 1
+}
+
+.servicelistbox {
+  width: 100%;
+  clear: both;
+  list-style: none
+}
+
+.servicelistbox li {
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid rgba(255, 255, 255, .43);
+  margin: 0;
+  padding: 17px 0;
+  cursor: pointer
+}
+
+.servicelistbox li:first-child {
+  padding-top: 0
+}
+
+.servicelistbox li.activeservice:before {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  z-index: 0;
+  left: 375px;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #fff;
+  border-bottom: 15px solid transparent;
+  margin: 4px 0 0
+}
+
+.servicelistbox li span {
+  font-size: 36px;
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  width: 48px;
+  line-height: 36px
+}
+
+.servicelistbox li .servicename {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  margin: 3px 0 0 10px;
+  float: right;
+  width: calc(100% - 60px)
+}
+
+.servicelistbox li.activeservice span,
+.servicelistbox li.activeservice .servicename {
+  color: #373737
+}
+
+.servicelistbox li .servicetxt {
+  display: none
+}
+
+.servicelistbox li .servicetxt p:last-child {
+  margin-bottom: 0
+}
+
+.servicelistbox li.activeservice .servicetxt {
+  display: block;
+  position: relative;
+  z-index: 0;
+  margin: 17px 0 26px;
+  padding: 0 0 0 64px
+}
+
+.servicelistbox li.activeservice .servicetxt:before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  width: 1px;
+  height: 100%;
+  background: rgba(255, 255, 255, .34);
+  top: 0;
+  left: 22px
+}
+
+.servicelistbox li.activeservice .servicetxt p {
+  color: #373737;
+  line-height: 24px;
+  letter-spacing: .3px;
+  margin-bottom: 25px
+}
+
+.servicecontainer .servicecont_right {
+  width: calc(100% - 390px);
+  float: right;
+  margin: 0;
+  padding: 55px 60px 0;
+  border-radius: 3px;
+  background: #fff;
+  background: linear-gradient(160deg, rgba(255, 255, 255, .75) 0%, rgba(255, 255, 255, 0) 100%)
+}
+
+.servicecontainer .servicecont_right .servicetitle {
+  display: block;
+  font-size: 24px;
+  color: #373737;
+  font-weight: 600;
+  position: relative;
+  z-index: 0;
+  margin: 0 0 37px
+}
+
+.servicecontainer .servicecont_right .servicetitle:before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  width: 30px;
+  background: #57d6ed;
+  height: 1px;
+  bottom: -15px;
+  left: 0;
+  margin: 0
+}
+
+.servicecont_right .container {
+  padding: 0;
+  margin-top: 16px
+}
+
+.servicecont_right .hs__item {
+  flex-basis: calc(100%/5 - (10px * 2) - (20px/5))
+}
+
+.servicenote {
+  width: 100%;
+  clear: both;
+  border-top: 1px solid rgba(255, 255, 255, .35);
+  padding: 10px 0 30px;
+  font-size: 18px;
+  color: #4b4b4b;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin: 18px 0 0
+}
+
+.replacecontent p {
+  font-size: 16px;
+  color: #4b4b4b;
+  line-height: 26px;
+  letter-spacing: .3px;
+  display: block;
+  margin: 0 0 20px
+}
+
+.servicesub_cont {
+  width: calc(100% + 22px);
+  clear: both;
+  margin: 0;
+  /* margin: 55px 0 30px -11px; */
+  float: left;
+  cursor: url(../../../../../../../../wp-content/themes/twentytwentythree-child/assets/images/drag-left-right.png), auto
+}
+
+a.servicesubbox {
+  background: #fff;
+  float: left;
+  border-radius: 3px;
+  text-align: center;
+  padding: 30px 20px;
+  text-decoration: none;
+  border: 2px solid #edf2f6;
+  width: 100%;
+  display: block;
+  min-width: 160px
+}
+
+a.servicesubbox span.sicon {
+  width: 60px;
+  display: block;
+  margin: 0 auto 20px;
+  height: 60px
+}
+
+a.servicesubbox img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%
+}
+
+a.servicesubbox span.sicontitle {
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  color: #4b4b4b;
+  line-height: 20px;
+  letter-spacing: .3px;
+  text-decoration: none;
+  display: block;
+  display: -webkit-box;
+  height: 42px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis
+}
+
+.payment-gateways-integration a.servicesubbox span.sicon {
+  width: 120px
+}
+
+@media(max-width:992px) {
+  .servicecontainer .replacecontent {
+    padding: 30px
+  }
+
+  .servicesection.more_services .sitegradient {
+    height: 4600px !important
+  }
+
+  .servicesection .sitegradient {
+    margin: -100px 0 0
+  }
+}
+
+@media(max-width:768px) {
+  .smk_accordion {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    border-top: 1px solid rgba(255, 255, 255, .4)
+  }
+
+  .serviceaccordioncontainer ul.servicesub_cont {
+    width: 100%;
+    clear: both;
+    margin: 0;
+    float: left;
+    list-style: none;
+    padding: 20px 0 10px
+  }
+
+  .serviceaccordioncontainer ul.servicesub_cont li {
+    width: calc(33.33% - 10px);
+    margin: 0 5px 10px;
+    float: left;
+    list-style: none
+  }
+
+  a.servicesubbox {
+    padding: 10px
+  }
+
+  a.servicesubbox span.sicon {
+    margin: 0 auto 10px
+  }
+
+  .smk_accordion .accordion_in .acc_content {
+    color: #373737
+  }
+
+  .servicesection.more_services .sitegradient {
+    height: 1600px !important
+  }
+
+  .smk_accordion .accordion_in.acc_active .acc_content {
+    margin-bottom: 0;
+    padding-bottom: 20px
+  }
+
+  a.servicesubbox span.sicontitle {
+    -webkit-line-clamp: 2;
+    display: block !important
+  }
+
+  .servicesub_cont {
+    cursor: pointer
+  }
+}
+
+@media(max-width:575px) {
+  body.home .award_sec .award_recogni_sec {
+    margin: 0 0 0px !important;
+}
+  body.home section.seocontent.firstcontent {
+  padding: 00px 0 40px !important;
+}
+body.home .getintouch_sec .wrapper {
+    border-top: 1px solid rgb(209 205 205 / 43%) !important;
+
+}
+  .serviceaccordioncontainer ul.servicesub_cont li {
+    width: calc(50% - 20px);
+    margin: 0 10px 10px;
+    float: left;
+    list-style: none
+  }
+
+  .serviceaccordioncontainer ul.servicesub_cont li.lastitem {
+    width: 100%;
+    margin: 0 5px 10px
+  }
+
+  .serviceaccordioncontainer ul.servicesub_cont li.lastitem a.servicesubbox img {
+    float: left
+  }
+
+  .serviceaccordioncontainer ul.servicesub_cont li.lastitem span {
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    display: inline-flex;
+    height: auto;
+    text-align: center
+  }
+
+  .serviceaccordioncontainer ul.servicesub_cont li.lastitem a.servicesubbox img {
+    margin: 0 auto
+  }
+
+  a.servicesubbox img {
+    width: 100%;
+    max-width: 50px
+  }
+
+  .servicesection p,
+  .processaccordioncontainer p {
+    font-size: 14px;
+    color: #373737;
+    margin: 0 0 20px
+  }
+
+  a.servicesubbox {
+    border: 0 solid #edf2f6
+  }
+
+  .smk_accordion .accordion_in.acc_active .acc_content {
+    margin-bottom: 0;
+    padding-bottom: 0
+  }
+
+  .processaccordioncontainer p {
+    margin: 0
+  }
+
+  .payment-gateways-integration a.servicesubbox span.sicon {
+    width: 120px
+  }
+
+  .payment-gateways-integration a.servicesubbox span.sicon img {
+    max-width: 120px
+  }
+}

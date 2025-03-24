@@ -1,0 +1,86 @@
+.scroll {
+    height: 60vh;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.text-marquee {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden
+}
+
+/* .text-single {
+    position: relative;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+    will-change: transform
+} */
+.text-single {
+    position: relative;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+    will-change: transform;
+    display: flex;
+}
+/* .text {
+    padding: 0;
+    padding: 10px;
+    background: #fff;
+    border: 0 solid #e7e7e7;
+    display: inline-block;
+    margin-right: 3rem;
+    font-family: arial;
+    font-weight: 600;
+    width:130px;
+    text-align: center
+} */
+
+.text {
+    padding: 0;
+    padding: 50px;
+    background: #fff;
+    border: 0 solid #e7e7e7;
+    display: inline-block;
+    margin-right: 50px;
+    font-family: arial;
+    font-weight: 600;
+    width: 210px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 120px;
+    object-fit: cover;
+}
+.featuredin_sec.mobilehide .container1 {
+    width: 100%;
+    clear: both
+}
+.featuredin_sec.mobilehide .container1 .text img {
+    max-width: 100%;
+    width: 100%;
+}
+.featuredin_sec.mobilehide .container1 .text-single {
+    cursor: url(../../../../../../../../anseo_agency/wp/wp-content/themes/twentytwentythree-child/assets/images/drag-left-right.png) auto !important
+}
+
+/* .featuredin_sec.mobilehide .container1 .text img {
+    max-width: 100%
+} */
+
+@media(max-width:575px) {
+    .featuredin_sec.mobilehide .container1 {
+        margin: 20px 0 0;
+        display: inline-block
+    }
+    .text {
+        /* width: 140px; */
+        margin: 0 12.5px
+    }
+}

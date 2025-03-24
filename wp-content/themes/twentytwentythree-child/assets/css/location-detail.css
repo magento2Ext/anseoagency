@@ -1,0 +1,729 @@
+        /* 
+            font-family: 'Rubik'; font-weight: normal;
+            font-family: 'Rubik'; font-weight: 600;
+            font-family: 'Rubik'; font-weight: bold;
+            font-family: 'Rubik'; font-weight: 500;
+            font-family: 'Rubik'; font-display: swap;
+        */
+
+        body.page-template-seo_melbourne .inrbnr_left,
+        body.page-template-page-location-suburb-detail .inrbnr_left {
+            margin: 100px 0 0 0;
+        }
+
+        section.locationdtl_content {
+            width: 100%;
+            clear: both;
+            margin: 0;
+            padding: 0;
+        }
+
+        .locationdtl_container {
+            width: 100%;
+            clear: both;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            margin-bottom: 80px;
+        }
+
+        .locationdtl_left {
+            width: calc(100% - 585px);
+            padding: 0 180px 0 0;
+        }
+
+        .locationdtl_left h1 {
+            width: 100%;
+            float: left;
+            clear: both;
+            font-size: 42px;
+            color: #373737;
+            font-weight: 600;
+            margin: 0 0 30px 0;
+            line-height: 50px;
+        }
+
+        .locationdtl_right {
+            width: 585px;
+            background: #fff;
+            border-radius: 20px;
+            padding: 30px 50px;
+        }
+
+        .locationdtl_container table {
+            width: 100%;
+        }
+
+        .locationdtl_container table tr td {
+            border-bottom: 1px solid #EBECED;
+            font-size: 12px;
+            color: #4B4B4B;
+            vertical-align: middle;
+            padding: 15px 0 15px 0;
+        }
+
+        .locationdtl_container table tr td:first-child {
+            font-size: 14px;
+            color: #373737;
+            font-family: 'Rubik';
+            font-weight: 600;
+            padding-right: 15px;
+        }
+
+        .locationdtl_container table tr:last-child td {
+            border: 0px solid red
+        }
+
+        .officeinfo_container {
+            width: calc(100% + 80px);
+            margin: 80px 0 0 -40px;
+            clear: both;
+        }
+
+        .openinghrs_container,
+        .address_container {
+            width: calc(50% - 80px);
+            margin: 0 40px;
+            background: #fff;
+            border-radius: 20px;
+            padding: 50px;
+        }
+
+        .officeinfo_container .ftaddressdiv {
+            width: 100%
+        }
+
+        .officeinfo_container ul.contlistul {
+            width: 80%;
+            clear: both;
+            margin: 0 0 0 115px;
+        }
+
+        .officeinfo_container ul.contlistul li {
+            line-height: 30px;
+            font-size: 14px;
+        }
+
+        .officeinfo_container ul.contlistul li span {
+            display: inline;
+            color: #4B4B4B;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .officeinfo_container ul.contlistul li:first-child {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .officeaddress_div {
+            width: 100%;
+            clear: both;
+            margin: 0 0 15px 0;
+            padding: 0;
+        }
+
+        .officeaddress_div .sectiontitle {
+            width: 100%;
+            clear: both;
+            color: #373737;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+        }
+
+        .mapdiv {
+            width: 100%;
+            border-radius: 30px;
+            filter: grayscale(1);
+            height: 210px;
+            overflow: hidden;
+        }
+
+        .officeaddress_div dl {
+            width: 100%;
+            clear: both;
+            font-size: 14px;
+            margin: 0 0 10px;
+            float: left;
+        }
+
+        .officeaddress_div dl dt {
+            width: 30px;
+            float: left;
+        }
+
+        .officeaddress_div dl dd {
+            width: calc(100% - 50px);
+            float: left;
+            color: #313131
+        }
+
+        .officeaddress_div dl dd a {
+            color: #313131;
+            text-decoration: none
+        }
+
+        .officeaddress_div dl dd a:hover {
+            color: #313131;
+            text-decoration: underline
+        }
+
+
+
+        /*location suburb list slider*/
+        .sub_slider_list .slick-track {
+            width: calc(100% + 52px);
+            margin: 0 0 0 -26px;
+            float: left;
+            clear: both;
+            padding: 30px 0;
+        }
+
+        .sub_slider_list .slick-track li.slick-slide {
+            width: calc(25% + 52px);
+            margin: 0 13px;
+            list-style: none;
+        }
+
+        .sub_slider_list .slick-track li.slick-slide a.servicebx {
+            width: 100%;
+        }
+
+        .sub_slider_list .slick-track li.slick-slide a.servicebx img {
+            display: inline;
+        }
+
+        .sub_slider_list .slick-track li.slick-slide a.servicebx dl {
+            box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+        }
+
+
+        .populartool_section .wrapper {
+            border-top: 0px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .videoreview_section .sitegradient {
+            margin: -700px 0 0 0;
+            height: 900px;
+        }
+
+        .award_sec .wrapper {
+            border-top: 0px solid rgba(0, 0, 0, 0.1);
+        }
+
+
+        .locationseoauditdiv,
+        .locationseoauditdiv form {
+            width: 90%;
+            clear: both;
+            margin: 30px 0 0 0;
+            padding: 0;
+        }
+
+        .locationseoauditdiv label {
+            display: block;
+            font-size: 20px;
+            font-weight: 600;
+            color: #3E4571;
+            text-transform: capitalize;
+            margin: 0 0 15px 0;
+            float: left;
+            width: 100%;
+        }
+
+        .locationseoauditdiv input[type=text] {
+            background: #fff;
+            border: 2px solid #3E4571;
+            width: calc(100% - 170px);
+            padding: 16px 14px;
+            border-radius: 5px;
+            color: #3E4571 !important;
+            font-weight: 600;
+        }
+
+        .locationseoauditdiv input[type=text]::placeholder {
+            color: #3E4571 !important;
+        }
+
+        .locationseoauditdiv input[type=submit] {
+            width: auto;
+            min-width: 150px;
+            padding: 17px 0;
+        }
+
+
+        .industry_sec .wrapper {
+            padding: 40px 0 40px;
+        }
+
+        .industry_sec .sec_absolutetxt {
+            top: 80px;
+        }
+
+        .platform_sec .sec_absolutetxt {
+            top: 120px;
+        }
+
+
+        .seoprocess_sec {
+            padding: 0;
+        }
+
+        .videoreview_section {
+            float: left;
+            margin: 60px 0 0;
+        }
+
+        .blog_sec .wrapper {
+            padding: 80px 0 30px;
+        }
+
+        .servicebx_container.sub_slider_list {
+            margin-top: -60px;
+            width: calc(100% + 40px);
+            margin-left: -20px;
+        }
+
+        .servicebx_container.sub_slider_list li {
+            list-style: none;
+        }
+
+        .servicebx_container.sub_slider_list:not(.slick-initialized) {
+            margin-top: 0;
+        }
+
+        .servicebx_container.sub_slider_list .slick-prev {
+            background: url('https://clientsarena.com/anseo_agency/wp/wp-content/uploads/2024/12/certificate-arrow-left.png')no-repeat 0 0;
+            left: inherit;
+            right: 70px;
+            top: -6px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .servicebx_container.sub_slider_list .slick-next {
+            background: url('https://clientsarena.com/anseo_agency/wp/wp-content/uploads/2024/12/certificate-arrow-right.png')no-repeat 0 0;
+            right: 20px;
+            top: -6px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .servicebx_container.sub_slider_list .slick-prev:hover,
+        .servicebx_container.sub_slider_list .slick-next:hover {
+            opacity: 0.6;
+        }
+
+        .servicebx_container.sub_slider_list .slick-prev:before,
+        .servicebx_container.sub_slider_list .slick-next:before {
+            display: none;
+        }
+
+        body.page-template-seo_melbourne #audit-tool-location .ajax-spinner,
+        body.page-template-page-location-suburb-detail #audit-tool-location .ajax-spinner {
+            float: none;
+            margin: 0;
+        }
+
+        body.page-template-seo_melbourne .award_sec,
+        body.page-template-page-location-suburb-detail .award_sec {
+            margin: 0;
+        }
+
+
+        .page-template-seo_melbourne .servicesection,
+        .page-template-page-location-suburb-detail .servicesection {
+            margin: 0;
+        }
+
+        .page-template-seo_melbourne .seocasestudy_sec,
+        .page-template-page-location-suburb-detail .seocasestudy_sec {
+            margin: 0 0 50px;
+        }
+
+        .page-template-seo_melbourne .seocasestudy_sec,
+        .page-template-page-location-suburb-detail .seocasestudy_sec {
+            margin: 0 0 10px;
+        }
+
+        .page-template-seo_melbourne .casestudyslide,
+        .page-template-page-location-suburb-detail .casestudyslide {
+            padding-bottom: 90px;
+        }
+
+        .page-template-seo_melbourne .seoprocess_sec,
+        .page-template-page-location-suburb-detail .seoprocess_sec {
+            margin-top: 60px
+        }
+
+
+        body.page-template-seo_melbourne .servicecontent_div ul,
+        .fullwidthcontent ul {
+            margin: 0 0 10px;
+            padding: 0 0 0 50px;
+        }
+
+        body.page-template-seo_melbourne .servicecontent_div ul li,
+        .fullwidthcontent ul li {
+            width: 100%;
+            float: left;
+            margin: 0 0 10px 0;
+            padding: 0;
+            list-style: none;
+            font-size: 16px;
+            position: relative;
+            z-index: 0;
+            color: #4B4B4B;
+            line-height: 26px;
+            text-align: left;
+        }
+
+        body.page-template-seo_melbourne .servicecontent_div ul li:before,
+        .fullwidthcontent ul li:before {
+            content: '';
+            position: absolute;
+            z-index: 0;
+            width: 10px;
+            height: 10px;
+            top: 7px;
+            left: -48px;
+            color: #fff;
+            text-align: center;
+            border-radius: 100%;
+            line-height: 18px;
+            font-weight: 600;
+            font-size: 12px;
+            font-style: normal;
+            background: rgb(87, 214, 237);
+            background: linear-gradient(148deg, rgba(87, 214, 237, 1) 0%, rgba(255, 225, 174, 1) 100%);
+        }
+
+
+        body.page-template-seo_melbourne .servicesection .sitegradient {
+            margin: 0;
+        }
+
+
+        /*responsive styles*/
+        @media (max-width: 1900px) {}
+
+        @media (max-width: 1599.98px) {
+
+            .servicebx_container.sub_slider_list {
+                width: calc(100% + 20px);
+                margin: -60px 0 0 -10px;
+                clear: both;
+            }
+
+        }
+
+        /* Extra Large devices (large desktops, less than 1440px) */
+        @media (max-width: 1440px) {
+
+
+            .locationdtl_left {
+                padding: 0 80px 0 0;
+            }
+
+            .officeinfo_container {
+                margin: 40px 0 0 -20px;
+                width: calc(100% + 40px);
+            }
+
+            .locationseoauditdiv,
+            .locationseoauditdiv form {
+                width: 100%;
+            }
+
+            .location_list a.servicebx {
+                width: calc(25% - 10px);
+                margin: 0 5px 10px;
+                float: left;
+            }
+
+            .sub_slider_list .slick-track {
+                width: calc(100% + 10px);
+                margin: 0 0 0 -5px;
+            }
+
+            .sub_slider_list .slick-track li.slick-slide {
+                width: calc(25% + 10px);
+                margin: 0 5px;
+                list-style: none;
+            }
+
+
+            .industry_sec .semititle,
+            .platform_sec .semititle {
+                width: calc(100% - 400px);
+            }
+
+            .sub_slider_list .slick-track li.slick-slide a.servicebx {
+                width: 100% !important;
+            }
+
+
+
+        }
+
+        /* Large devices (desktops, less than 1200px) */
+        @media (max-width: 1200px) {
+
+            .locationdtl_left {
+                width: calc(100% - 480px);
+                padding: 0 40px 0 0;
+            }
+
+            .locationdtl_right {
+                width: 480px;
+                padding: 30px 50px;
+            }
+
+            .locationdtl_left h1 {
+                font-size: 32px;
+                margin: 0 0 10px 0;
+                line-height: 100%;
+            }
+
+            .openinghrs_container,
+            .address_container {
+                width: calc(50% - 40px);
+                margin: 0 20px;
+                padding: 30px;
+            }
+
+            .locationdtl_container {
+                margin-bottom: 40px;
+            }
+
+            .ftaddressdiv dl {
+                width: 100%;
+            }
+
+            .officeinfo_container ul.contlistul {
+                margin: 0;
+            }
+
+            .locationseoauditdiv input[type=submit] {
+                width: auto;
+                min-width: 80px;
+            }
+
+            .locationseoauditdiv input[type=text] {
+                width: calc(100% - 90px);
+            }
+
+            .location_list a.servicebx {
+                width: calc(33.33% - 10px);
+            }
+
+            .mapdiv {
+                border-radius: 10px;
+            }
+
+
+
+
+
+        }
+
+        /* Medium devices (tablets, less than 992px) */
+        @media (max-width: 992px) {
+
+            .locationdtl_right {
+                width: 400px;
+                padding: 30px 50px;
+            }
+
+            .locationdtl_left {
+                width: calc(100% - 400px);
+            }
+
+            .locationseoauditdiv label {
+                font-size: 16px;
+                margin: 0 0 8px 0;
+            }
+
+            .location_list a.servicebx dl {
+                padding: 10px;
+            }
+
+            .location_list a.servicebx dl dt {
+                margin: 0 10px 0 0;
+            }
+
+
+            .servicepg.location_list h3 {
+                margin: 9px 0 30px 0;
+            }
+
+            .servicebx_container.sub_slider_list {
+                margin: -30px 0 0 -10px;
+            }
+
+        }
+
+        @media(max-width:768px) {
+
+            .locationdtl_left {
+                width: 100%;
+                padding: 0;
+            }
+
+            .locationdtl_right {
+                width: 100%;
+                padding: 30px 50px;
+            }
+
+            .locationdtl_container {
+                margin-bottom: 30px;
+            }
+
+            .officeinfo_container {
+                margin: 40px 0 0 0;
+                width: 100%;
+            }
+
+            /*    .openinghrs_container, .address_container {width: 100%; margin: 0 20px 20px;}*/
+            .openinghrs_container,
+            .address_container {
+                width: 100%;
+                margin: 0 0 20px;
+            }
+
+            .locationseoauditdiv input[type=text] {
+                width: calc(100% - 170px);
+            }
+
+            .locationseoauditdiv input[type=submit] {
+                width: auto;
+                min-width: 150px;
+            }
+
+            .location_list a.servicebx {
+                width: calc(50% - 10px);
+            }
+
+            body.page-template-seo_melbourne .inrbnr_left,
+            body.page-template-page-location-suburb-detail .inrbnr_left {
+                margin: 30px 0 0 0;
+            }
+
+
+        }
+
+        /* Extra small devices (portrait phones, less than 576px) */
+        @media (max-width: 575px) {
+
+            .openinghrs_container,
+            .address_container {
+                padding: 10px 30px 30px;
+                margin: 0 0 20px;
+            }
+
+            .locationseoauditdiv,
+            .locationseoauditdiv form {
+                margin: 15px 0 30px 0;
+            }
+
+            /*
+    .locationseoauditdiv input[type=text] {width: 100%; margin: 0 0 10px 0;}
+    .locationseoauditdiv input[type=submit] {width: auto; min-width: 100%;}
+*/
+
+            .locationseoauditdiv input[type=text] {
+                width: calc(100% - 90px);
+                padding: 10px;
+            }
+
+            .locationseoauditdiv input[type=submit] {
+                min-width: 80px;
+                padding: 12px 10px;
+            }
+
+            .locationdtl_container {
+                float: left;
+                margin-top: 20px;
+            }
+
+            .officeinfo_container {
+                margin: 20px 0 0 0;
+                width: 100%;
+            }
+
+            .officeaddress_div .sectiontitle {
+                margin: 20px 0 10px 0;
+            }
+
+            .locationdtl_right {
+                padding: 20px 30px;
+            }
+
+            .locationdtl_container table tr td:first-child {
+                font-size: 13px;
+            }
+
+            /*    .location_list a.servicebx dl dd {font-size: 16px;}*/
+            .location_list a.servicebx {
+                width: calc(100% - 10px);
+            }
+
+            .sub_slider_list .slick-track li.slick-slide a.servicebx dl {
+                box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+            }
+
+            .platform_sec,
+            .industry_sec {
+                margin: 0 auto 0;
+            }
+
+            .industry_sec .wrapper {
+                padding: 0;
+                border: 0px solid rgba(0, 0, 0, 0.1);
+            }
+
+            .servicebx_container.sub_slider_list {
+                margin: -20px 0 0 -10px;
+            }
+
+            .sub_slider_list .slick-track {
+                padding: 30px 0 0;
+            }
+
+            .platform_sec {
+                margin-top: 30px;
+            }
+
+            .seoprocess_sec {
+                padding: 0;
+                margin: 0 0 40px 0;
+            }
+
+            body.page-template-seo_melbourne .servicecontent_div ul,
+            .fullwidthcontent ul {
+                padding: 0 0 0 20px;
+            }
+
+            body.page-template-seo_melbourne .servicecontent_div ul li,
+            .fullwidthcontent ul li {
+                font-size: 14px;
+            }
+
+            body.page-template-seo_melbourne .servicecontent_div ul li:before,
+            .fullwidthcontent ul li:before {
+                left: -20px;
+            }
+
+            body.page-template-seo_melbourne .inrbnr_left,
+            body.page-template-page-location-suburb-detail .inrbnr_left {
+                margin: 70px 0 0;
+            }
+
+        }
+
+        @media (max-width: 375px) {
+            .abouttxtbanner .bnrtxt {}
+        }
+
+        @media (max-width: 360px) {}

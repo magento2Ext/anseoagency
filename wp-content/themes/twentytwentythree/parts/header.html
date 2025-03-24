@@ -1,0 +1,20 @@
+<header class="desk">
+    <div class="overlay"></div>
+    <div class="wrapper">
+        <a href="<?php echo home_url(); ?>" class="logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Black_Outline_Street_Brand_Modern_Typography_Logo.png" alt="Christmas Logo" class="logooriginal" />
+        </a>
+        <div class="menu_link">
+            <nav>
+                <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'primary',
+                    'menu_class' => 'menu-primary-menu',
+                    'container' => false,
+                    'fallback_cb' => false,
+                ));
+                ?>
+            </nav>
+        </div>
+    </div>
+</header>
