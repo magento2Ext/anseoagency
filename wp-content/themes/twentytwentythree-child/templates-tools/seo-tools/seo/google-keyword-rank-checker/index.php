@@ -87,7 +87,7 @@ if (isset($_POST["domain"])){
                                     <input type="hidden" name="pages" value="100">
 
                             </div>
-                            <div class="g-recaptcha custom_captcha" data-sitekey="6LcflZoqAAAAAPx2upg7lrPvul--MUCpjimTffls"></div>
+                            <div class="g-recaptcha custom_captcha" data-sitekey="6LcOm_8qAAAAAEOYGDHe-vJmNZfyQq4R-g3NfxeQ"></div>
                             <div class="form-group submission">
                                 <button name="submit" class="btnSubmit" type="submit">Submit</button>
 

@@ -138,7 +138,7 @@
                                                     <p>¿ ¡ « »</p>
                                                 </div>
                                             </div>
-                                            <div class="g-recaptcha custom_captcha" data-sitekey="6LcflZoqAAAAAPx2upg7lrPvul--MUCpjimTffls"></div>
+                                            <div class="g-recaptcha custom_captcha" data-sitekey="6LcOm_8qAAAAAEOYGDHe-vJmNZfyQq4R-g3NfxeQ"></div>
 
                                             <div class="pass_submit define_float">
                                                 <input type="submit" value="GENERATE" />

@@ -37,7 +37,7 @@ $result = json_decode($response, true);
                     <input type="text" name="email" class="form-control" placeholder="Enter Email Address" pattern="[a-zA-z0-9._%+-]+@[a-zA-z0-9.-]+\.[a-z]{2,4}$" required>
                   </div>
 
-                  <div class="g-recaptcha custom_captcha" data-sitekey="6LcflZoqAAAAAPx2upg7lrPvul--MUCpjimTffls"></div>
+                  <div class="g-recaptcha custom_captcha" data-sitekey="6LcOm_8qAAAAAEOYGDHe-vJmNZfyQq4R-g3NfxeQ"></div>
                   <div class="form-group">
                     <button class="btn btn-info btn-block custom-btn" type="submit" name="submit">Submit</button>
                   </div>

@@ -348,18 +348,67 @@ $author_image = get_field('author_image', 'user_'. $author_id);
             </div>
             <div class="price_break_box">
                 <p>Starting From</p>
-                <?php $service_price = get_sub_field('service_price');?>
-                    <h2><?php echo esc_html($service_price); ?><span>/month</span></h2>
+               <?php
+$service_price_raw = get_sub_field('service_price'); // Get ACF price (e.g., "$250")
+$service_price = (float) preg_replace('/[^0-9.]/', '', $service_price_raw); // Remove $ sign and convert to float
+
+// Get User Country from IP
+$ip = $_SERVER['REMOTE_ADDR'];
+$geoData = @json_decode(file_get_contents("http://ip-api.com/json/{$ip}"));
+
+$country = $geoData->country ?? 'Unknown'; // Default to 'Unknown' if API fails
+
+// Set currency based on country
+if ($country == 'India') {
+    $currency_symbol = '₹';
+
+    // Fetch Live USD to INR Conversion Rate
+    $api_url = "https://api.exchangerate-api.com/v4/latest/USD";
+    $response = @file_get_contents($api_url);
+    
+    if ($response) {
+        $exchange_data = json_decode($response, true);
+        $conversion_rate = $exchange_data['rates']['INR'] ?? 83; // Default to 83 if API fails
+    } else {
+        $conversion_rate = 83; // Fallback rate if API request fails
+    }
+
+    // Convert USD to INR
+    $service_price = $service_price * $conversion_rate;
+} else {
+    $currency_symbol = '$';
+}
+
+// Ensure service price is valid before displaying
+if ($service_price > 0) {
+    echo '<h2>' . esc_html($currency_symbol . number_format($service_price, 2)) . '<span>/month</span></h2>';
+} else {
+    echo '<h2>Price Not Available</h2>'; // Handle empty or invalid price
+}
+?>
+
+
             </div>
             
-            <div class="btn_wrapper">
-                <?php if (have_rows('button')): 
-                while (have_rows('button')): the_row(); ?>
-                    <?php $button_text = get_sub_field('button_text');?>
-                    <?php $contact_us_url = get_sub_field('contact_us_url');?>
-                    <a href="<?php echo $contact_us_url; ?>" target="_blank"><?php echo esc_html($button_text); ?></a>
-                    <?php endwhile; endif; ?>
-                </div>
+         <div class="btn_wrapper">
+    <?php if (have_rows('button')): 
+        while (have_rows('button')): the_row(); 
+            $button_text = get_sub_field('button_text');
+            $contact_us_url = get_sub_field('contact_us_url');
+            $contact_us_mobile_url = get_sub_field('contact_us_mobile_url');
+
+            // Detect if the user is on mobile
+            $is_mobile = wp_is_mobile();
+
+            // Set the appropriate URL based on the device
+            $final_url = $is_mobile ? $contact_us_mobile_url : $contact_us_url;
+    ?>
+            <a href="<?php echo esc_url($final_url); ?>" target="_blank" class="chaty-tooltip Whatsapp-channel chaty-link chaty-whatsapp-channel pos-left" data-form="chaty-form-0-Whatsapp">
+                <?php echo esc_html($button_text); ?>
+            </a>
+    <?php endwhile; endif; ?>
+</div>
+
                 
         </div>
         <?php endwhile; endif; ?>

@@ -17,8 +17,7 @@
                                             </div>
 
                                             <div class="captcha_form define_float">
-                                                <div class="g-recaptcha" id="captcha" data-callback="callback" data-sitekey="6LcflZoqAAAAAPx2upg7lrPvul--MUCpjimTffls
-">
+                                                <div class="g-recaptcha" id="captcha" data-callback="callback" data-sitekey="6LcOm_8qAAAAAEOYGDHe-vJmNZfyQq4R-g3NfxeQ">
 
                                                 </div>
                                             </div>

@@ -15,7 +15,7 @@
                             <div class="view_lynxx-form">
                                 <input type="text" name="url" placeholder="Enter url with https or http" style="width: 100%" value="<?php if(!empty( $_POST['url'])) {echo $_POST['url']; }?>" class="form-control" required=''/>
                                 <input type="submit" class="btn btn-default custom-btn" name="button" id="submitBtn">
-                                <div class="g-recaptcha custom_captcha" data-sitekey="6LcflZoqAAAAAPx2upg7lrPvul--MUCpjimTffls"></div>
+                                <div class="g-recaptcha custom_captcha" data-sitekey="6LcOm_8qAAAAAEOYGDHe-vJmNZfyQq4R-g3NfxeQ"></div>
                             </div>
                         </form>
                     </div>

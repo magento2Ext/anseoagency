@@ -1,5 +1,11 @@
 @charset "utf-8";
-
+.price_break_box h2 {
+  font-size: 28px !important;
+  line-height: 36px !important;
+}
+.business-main h2 {
+  font-size: 22px !important;
+}
 .feat_brand_box {
 
   padding: 10px;
@@ -1843,7 +1849,11 @@ input#submit_contact_form {
   max-width: 100%;
 
 }
+.same_h_aligner .imgcollage .imagecolumn img:last-child {
 
+  object-position: center right;
+  
+}
 .contact_form_sec .contact_form .positions-checkboxes label {
 
   margin-bottom: 0;
@@ -2552,6 +2562,8 @@ body.menuoverlay header {
   line-height: 40px;
 
   margin: 0 0 17px;
+  
+  height:unset;
 
 }
 
@@ -4339,6 +4351,8 @@ header .wrapper {
     line-height: 36px;
 
     margin: 0 0 10px;
+    
+    height:unset;
 
   }
 

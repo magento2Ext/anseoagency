@@ -1682,7 +1682,7 @@ get_header(); ?>
 
                                  <div class="accordion-content accordion-faq-main">
 
-                                    <p><?php echo esc_html($Faq['faq_answer']); ?></p>
+                                    <p><?php echo ($Faq['faq_answer']); ?></p>
 
                                  </div>
 

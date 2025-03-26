@@ -1,7 +1,5 @@
 <?php
 
-
-
 // Enqueue parent theme styles
 
 function twentytwentythree_child_enqueue_styles() {
@@ -1243,3 +1241,4 @@ function custom_theme_setup() {
 }
 
 add_action('after_setup_theme', 'custom_theme_setup');
+

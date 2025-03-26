@@ -73,7 +73,7 @@ if (isset($_POST["domain"])){
                                         <?php if(isset($_POST['submit'])){if($domain==false){echo "<span style='color: red;'>Please enter valid url<span>";}}?>
                                         <button name ="submit"class="btnSubmit" type="submit">Submit</button>
                                     </div>
-                                    <div class="g-recaptcha custom_captcha" data-sitekey="6LcflZoqAAAAAPx2upg7lrPvul--MUCpjimTffls"></div>
+                                    <div class="g-recaptcha custom_captcha" data-sitekey="6LcOm_8qAAAAAEOYGDHe-vJmNZfyQq4R-g3NfxeQ"></div>
                                 </div>
                             </form>
                         </div>

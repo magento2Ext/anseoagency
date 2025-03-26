@@ -24,7 +24,7 @@
                                         </div>
                                         <div class="row" >
                                             <div class="col-md-12" >
-                                                <div class="g-recaptcha" id="captcha" data-sitekey="6LcflZoqAAAAAPx2upg7lrPvul--MUCpjimTffls">
+                                                <div class="g-recaptcha" id="captcha" data-sitekey="6LcOm_8qAAAAAEOYGDHe-vJmNZfyQq4R-g3NfxeQ">
                                                 </div>
                                             </div>
                                         </div>
