@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="49" viewBox="0 0 46 49">
+  <defs>
+    <clipPath id="clip-menu-seo-service">
+      <rect width="46" height="49"/>
+    </clipPath>
+  </defs>
+  <g id="menu-seo-service" clip-path="url(#clip-menu-seo-service)">
+    <g id="Group_529" data-name="Group 529" transform="translate(11 13)">
+      <g id="Group_403" data-name="Group 403" transform="translate(0 0)">
+        <line id="Line_147" data-name="Line 147" x1="6.172" y1="6.733" transform="translate(16.832 16.832)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="1.6"/>
+        <circle id="Ellipse_46" data-name="Ellipse 46" cx="9.818" cy="9.818" r="9.818" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="1.6"/>
+        <path id="Path_255" data-name="Path 255" d="M570.76,586.017a9.82,9.82,0,1,1,13.257-13.258" transform="translate(-565.5 -567.5)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="1.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

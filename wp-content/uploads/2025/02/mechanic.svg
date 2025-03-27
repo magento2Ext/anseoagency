@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="49" viewBox="0 0 46 49">
+  <g id="Group_713" data-name="Group 713" transform="translate(9179 -1184)">
+    <rect id="Rectangle_26425" data-name="Rectangle 26425" width="46" height="49" transform="translate(-9179 1184)" fill="none"/>
+    <g id="Group_712" data-name="Group 712" transform="translate(-9504.642 602.551)">
+      <path id="Path_358" data-name="Path 358" d="M698,558.814S699.535,556,702.348,556s4.8,2.814,4.8,2.814H724.6S726.652,556,729.335,556a4.982,4.982,0,0,1,4.426,2.814h-3.11a3.061,3.061,0,0,0-1.191,2.558c0,1.79,1.279,2.046,1.279,2.046H734s-.447,3.069-4.284,3.069a5.492,5.492,0,0,1-5.115-3.069H707.464a6.141,6.141,0,0,1-5.161,3.069,4.29,4.29,0,0,1-4.3-3.041h3.581a2.383,2.383,0,0,0,1.5-2.2,2.9,2.9,0,0,0-1.5-2.43Z" transform="translate(-367.359 59.935)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_359" data-name="Path 359" d="M739.606,500s.932,8.911,7.358,8.911,6.938-8.272,6.938-8.272" transform="translate(-398.323 99.16)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_360" data-name="Path 360" d="M737.5,460.15s.256-6.65,7.673-6.65,7.673,6.139,7.673,6.139" transform="translate(-396.755 132.949)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_361" data-name="Path 361" d="M734.5,485.5l1.79,2.3a19.519,19.519,0,0,1,6.874-1.584A20.083,20.083,0,0,1,750.1,487.8l1.433-2.3" transform="translate(-394.523 109.134)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_363" data-name="Path 363" d="M726.5,542.546l6.139-2.046s-.064,3.1,4.572,3.1,5.02-2.871,5.02-2.871l5.5,1.819" transform="translate(-388.569 69.019)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_208" data-name="Line 208" y2="4.206" transform="translate(353.661 605.683)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_209" data-name="Line 209" y2="3.439" transform="translate(344.07 606.194)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

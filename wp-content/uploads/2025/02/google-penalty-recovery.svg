@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="49" viewBox="0 0 46 49">
+  <g id="Group_724" data-name="Group 724" transform="translate(2044 151)">
+    <rect id="Rectangle_26425" data-name="Rectangle 26425" width="46" height="49" transform="translate(-2044 -151)" fill="none"/>
+    <g id="Group_723" data-name="Group 723" transform="translate(-2368 -2532.856)">
+      <path id="Path_393" data-name="Path 393" d="M211.557,705.34a18.067,18.067,0,1,0-8.105-29.387" transform="translate(130.21 1717.978)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_394" data-name="Path 394" d="M205.932,707.78a18.083,18.083,0,0,1-7.389-22.907" transform="translate(132 1713.851)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="8 4"/>
+      <path id="Path_395" data-name="Path 395" d="M202,671v6.5l6.042-.3" transform="translate(131.457 1716.856)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_396" data-name="Path 396" d="M225.819,686.613S223.651,683,220.761,683s-6.291,1.481-5.781,5.058c.723,5.058,10.839,1.445,10.839,7,0,4.557-7.948,7.55-10.839,2.08" transform="translate(127.026 1714.371)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_225" data-name="Line 225" y2="23.697" transform="translate(347.4 2393.906)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

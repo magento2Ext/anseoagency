@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="49" viewBox="0 0 46 49">
+  <g id="Group_2338" data-name="Group 2338" transform="translate(-2241 -15315)">
+    <rect id="Rectangle_26443" data-name="Rectangle 26443" width="46" height="49" transform="translate(2241 15315)" fill="none"/>
+    <g id="Group_1963" data-name="Group 1963" transform="translate(1926 12792)">
+      <path id="Path_1004" data-name="Path 1004" d="M30.878,29.321a1.557,1.557,0,0,1-1.557,1.557H2.557A1.557,1.557,0,0,1,1,29.321V2.557A1.557,1.557,0,0,1,2.557,1H29.32a1.557,1.557,0,0,1,1.557,1.557V21.937" transform="translate(321 2532)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_331" data-name="Line 331" x2="29.878" transform="translate(322 2537.866)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_332" data-name="Line 332" x2="9.06" transform="translate(326.337 2544.569)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_333" data-name="Line 333" x1="9.06" transform="translate(338.673 2551.643)" fill="none" stroke="#3d4571" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_334" data-name="Line 334" x1="9.06" transform="translate(345.709 2557.706)" fill="none" stroke="#3d4571" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_1008" data-name="Path 1008" d="M4.392,2.278,2.114,0,0,2.278" transform="translate(336.939 2542.374) rotate(90)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_1009" data-name="Path 1009" d="M4.392,0,2.114,2.278,0,0" transform="translate(339.831 2549.447) rotate(90)" fill="none" stroke="#3d4571" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_1010" data-name="Path 1010" d="M4.392,0,2.114,2.278,0,0" transform="translate(346.418 2555.51) rotate(90)" fill="none" stroke="#3d4571" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

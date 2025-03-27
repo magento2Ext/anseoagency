@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="49" viewBox="0 0 46 49">
+  <defs>
+    <clipPath id="clip-menu-content-marketing-service">
+      <rect width="46" height="49"/>
+    </clipPath>
+  </defs>
+  <g id="menu-content-marketing-service" clip-path="url(#clip-menu-content-marketing-service)">
+    <g id="Group_527" data-name="Group 527" transform="translate(7 13)">
+      <g id="Group_405" data-name="Group 405" transform="translate(0 0)">
+        <path id="Path_264" data-name="Path 264" d="M0,8.437,8.3,7.53a3.352,3.352,0,0,0,2.834-3.312h0A3.352,3.352,0,0,0,8.3.907L0,0Z" transform="translate(20.888 7.47) rotate(22)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="1.6"/>
+        <path id="Path_265" data-name="Path 265" d="M4.331,10.848,0,13.4.385,0,4.162,2.579" transform="translate(17.996 3.52) rotate(22)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="1.6"/>
+        <line id="Line_148" data-name="Line 148" x1="1.395" y2="6.276" transform="translate(22.866 16.406) rotate(22)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="1.6"/>
+        <g id="Group_257" data-name="Group 257">
+          <ellipse id="Ellipse_52" data-name="Ellipse 52" cx="5.699" cy="4.749" rx="5.699" ry="4.749" transform="matrix(0.996, -0.087, 0.087, 0.996, 0, 0.993)" fill="none" stroke="#3e4570" stroke-miterlimit="10" stroke-width="1.6"/>
+          <path id="Path_268" data-name="Path 268" d="M2.589.851S2.114,3.229,5.343,4.037c0,0-4.227,0-5.343-4.037Z" transform="matrix(0.875, -0.485, 0.485, 0.875, 5.877, 10.414)" fill="#3e4570"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

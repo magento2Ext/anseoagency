@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="49" viewBox="0 0 46 49">
+  <g id="Group_713" data-name="Group 713" transform="translate(9184 -860)">
+    <rect id="Rectangle_26425" data-name="Rectangle 26425" width="46" height="49" transform="translate(-9184 860)" fill="none"/>
+    <g id="Group_712" data-name="Group 712" transform="translate(-9999.749 -435.636)">
+      <path id="Path_543" data-name="Path 543" d="M3.487,16.113S7.111,11.73,9,10.756c1.838-.948,4.149-.49,5.976.19a4.492,4.492,0,0,0,1.567.333L21.3,11.1s1.913,0,1.913,1.733a1.92,1.92,0,0,1-1.6,1.967h-5.48" transform="translate(821.412 1309.735)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_544" data-name="Path 544" d="M8.781,23.563,10.244,22.1a2.143,2.143,0,0,1,1.152-.6l9.858-1.7a7.867,7.867,0,0,0,1.541-.427,47.952,47.952,0,0,0,10.049-5.223s1.524-1.628.42-2.784-2.363-.735-3.414-.053a52.839,52.839,0,0,1-9.627,3.089" transform="translate(823.473 1309.904)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_545" data-name="Path 545" d="M.5,16.218l2.732-2.627L13.32,23.574l-2.575,2.784" transform="translate(820.249 1311.048)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_546" data-name="Path 546" d="M29.736,1.419a4.083,4.083,0,0,0-2.4-.893C22.858.145,23.1,4.113,23.1,4.113h0S23.343.145,18.866.526c-4.3.366-3.437,4.44-3.437,4.44.595,2.864,7.669,9.75,7.669,9.75h0s1.827-1.779,3.7-3.906" transform="translate(823.71 1302.136)" fill="none" stroke="#3e4571" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_308" data-name="Line 308" y2="4.97" transform="translate(853.72 1306.812)" fill="none" stroke="#3e4571" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line id="Line_309" data-name="Line 309" x2="4.97" transform="translate(851.234 1309.297)" fill="none" stroke="#3e4571" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

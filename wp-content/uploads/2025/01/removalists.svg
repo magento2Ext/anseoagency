@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="49" viewBox="0 0 46 49">
+  <defs>
+    <clipPath id="clip-removalists">
+      <rect width="46" height="49"/>
+    </clipPath>
+  </defs>
+  <g id="removalists" clip-path="url(#clip-removalists)">
+    <g id="Group_2" data-name="Group 2" transform="translate(-0.421 -0.11)">
+      <g id="Group_1" data-name="Group 1" transform="translate(-395.579 -2552.89)">
+        <path id="Path_1" data-name="Path 1" d="M454.357,2753v13.512L440,2760.6v-7.551" transform="translate(-35.777 -171.732)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_2" data-name="Path 2" d="M576,2766.933l14.357-5.912v-7.551" transform="translate(-157.421 -172.153)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_3" data-name="Path 3" d="M404.223,2697,400,2701.223l14.357,5.912,4.223-4.223Z" transform="translate(0 -121.643)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_4" data-name="Path 4" d="M590.357,2697l4.223,4.223-14.357,5.912L576,2702.911Z" transform="translate(-157.421 -121.643)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_5" data-name="Path 5" d="M601.167,2602.566l1.566-1.566,14.357,5.911-4.223,4.223-11.214-4.617" transform="translate(-179.931 -35.778)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_6" data-name="Path 6" d="M413.458,2604.507,400,2610.048l4.223,4.222,11.221-4.62" transform="translate(0 -38.914)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_7" data-name="Path 7" d="M499.823,2574.512l-2.534,2.533v-5.912c0-6.756-4.223-10.134-9.29-10.134" transform="translate(-78.71)" fill="none" stroke="#3d4470" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <line id="Line_1" data-name="Line 1" x2="2" y2="2" transform="translate(416.579 2574.89)" fill="none" stroke="#3d4470" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

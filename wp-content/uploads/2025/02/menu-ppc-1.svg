@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="49" viewBox="0 0 46 49">
+  <defs>
+    <clipPath id="clip-menu-ppc">
+      <rect width="46" height="49"/>
+    </clipPath>
+  </defs>
+  <g id="menu-ppc" clip-path="url(#clip-menu-ppc)">
+    <g id="Group_527" data-name="Group 527" transform="translate(11 11)">
+      <g id="Group_520" data-name="Group 520" transform="translate(0 0)">
+        <path id="Path_261" data-name="Path 261" d="M15.389,11.524a8.08,8.08,0,1,0-7.31,4.634" transform="translate(0 0.846) rotate(-3)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="1.6"/>
+        <path id="Path_262" data-name="Path 262" d="M2120.852,152.757l-.177,12.515,3.639-7.278,8.3-.488Z" transform="translate(-2108.316 -139.143)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="1.6"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="49" viewBox="0 0 46 49">
+  <defs>
+    <clipPath id="clip-local-seo-audit">
+      <rect width="46" height="49"/>
+    </clipPath>
+  </defs>
+  <g id="local-seo-audit" clip-path="url(#clip-local-seo-audit)">
+    <g id="Group_4235" data-name="Group 4235" transform="translate(-0.46 0.066)">
+      <g id="Group_4233" data-name="Group 4233" transform="translate(2.525 5)">
+        <g id="Group_4234" data-name="Group 4234">
+          <path id="Path_7285" data-name="Path 7285" d="M38.368,12.21V1H1V38.368H20.618" transform="translate(-0.066 -0.066)" fill="none" stroke="#57d6ed" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <line id="Line_77" data-name="Line 77" x2="33.631" transform="translate(2.803 6.539)" fill="none" stroke="#57d6ed" stroke-linejoin="round" stroke-width="2"/>
+          <line id="Line_78" data-name="Line 78" x2="1.868" transform="translate(3.737 3.737)" fill="none" stroke="#57d6ed" stroke-linejoin="round" stroke-width="2"/>
+          <line id="Line_79" data-name="Line 79" x2="1.868" transform="translate(6.539 3.737)" fill="none" stroke="#57d6ed" stroke-linejoin="round" stroke-width="2"/>
+          <line id="Line_80" data-name="Line 80" x2="1.868" transform="translate(9.342 3.737)" fill="none" stroke="#57d6ed" stroke-linejoin="round" stroke-width="2"/>
+          <circle id="Ellipse_237" data-name="Ellipse 237" cx="8.875" cy="8.875" r="8.875" transform="translate(17.75 14.013)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Path_7286" data-name="Path 7286" d="M36.087,29.952,43.2,37.06A1.868,1.868,0,1,1,40.552,39.7l-7.208-7.208" transform="translate(-2.194 -1.971)" fill="none" stroke="#3e4571" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

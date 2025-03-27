@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="49" viewBox="0 0 46 49">
+  <g id="Group_2335" data-name="Group 2335" transform="translate(-2241 -15096)">
+    <rect id="Rectangle_26440" data-name="Rectangle 26440" width="46" height="49" transform="translate(2241 15096)" fill="none"/>
+    <g id="Group_270" data-name="Group 270" transform="translate(1946 14460)">
+      <path id="Path_293" data-name="Path 293" d="M205.538,394.8H227.02V369H195v25.8h3.756" transform="translate(107 276)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_296" data-name="Path 296" d="M-2,0H29.577" transform="translate(304.222 650.307)" fill="none" stroke="#57d6ed" stroke-width="2"/>
+      <line id="Line_164" data-name="Line 164" x1="9.523" transform="translate(320.627 655.222)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_165" data-name="Line 165" x1="9.523" transform="translate(320.627 665.496)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_166" data-name="Line 166" x1="9.523" transform="translate(316.105 660.333)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_294" data-name="Path 294" d="M208.359,401.336l-3.836-3.836-3.559,3.836" transform="translate(104.7 265.009)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_295" data-name="Path 295" d="M206.748,397.483v8.753A5.6,5.6,0,0,0,207.8,409.6a4.077,4.077,0,0,0,3.4,1.718h4.3" transform="translate(102.47 265.016)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

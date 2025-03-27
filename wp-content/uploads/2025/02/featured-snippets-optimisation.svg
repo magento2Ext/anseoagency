@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="49" viewBox="0 0 46 49">
+  <g id="Group_727" data-name="Group 727" transform="translate(-927 -2364)">
+    <rect id="Rectangle_26425" data-name="Rectangle 26425" width="46" height="49" transform="translate(927 2364)" fill="none"/>
+    <g id="Group_726" data-name="Group 726" transform="translate(-383 -390)">
+      <path id="Path_451" data-name="Path 451" d="M383.3,393.8h5.387v28.5h-5.063" transform="translate(962.106 2370.2)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_452" data-name="Path 452" d="M352.119,422.3H346.6V393.8h5.656" transform="translate(968.4 2370.2)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_250" data-name="Line 250" x2="24.358" transform="translate(1320.799 2772.285)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_251" data-name="Line 251" x2="17.73" transform="translate(1320.799 2784.712)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_252" data-name="Line 252" x2="17.73" transform="translate(1327.427 2778.499)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

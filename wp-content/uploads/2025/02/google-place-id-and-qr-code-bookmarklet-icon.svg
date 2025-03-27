@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="49" viewBox="0 0 46 49">
+  <g id="Group_2339" data-name="Group 2339" transform="translate(-2241 -15383)">
+    <rect id="Rectangle_26444" data-name="Rectangle 26444" width="46" height="49" transform="translate(2241 15383)" fill="none"/>
+    <g id="Group_1965" data-name="Group 1965" transform="translate(1546 12943)">
+      <path id="Path_1011" data-name="Path 1011" d="M18.857,22.994V36.363L9.929,30.306,1,36.363V4.294H9.881" transform="translate(703 2444.755)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="Group_1964" data-name="Group 1964" transform="translate(715.659 2448)">
+        <path id="Path_1012" data-name="Path 1012" d="M15.39,4.261V1h3.261" transform="translate(-15.39 -1)" fill="none" stroke="#3d4571" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_1013" data-name="Path 1013" d="M32.22,1h3.261V4.261" transform="translate(-18.584 -1)" fill="none" stroke="#3d4571" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_1014" data-name="Path 1014" d="M15.39,17.025v3.261h3.261" transform="translate(-15.39 -4.041)" fill="none" stroke="#3d4571" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_1015" data-name="Path 1015" d="M32.22,20.286h3.261V17.025" transform="translate(-18.584 -4.041)" fill="none" stroke="#3d4571" stroke-miterlimit="10" stroke-width="2"/>
+        <rect id="Rectangle_26416" data-name="Rectangle 26416" width="3.338" height="3.338" transform="translate(3.55 3.375)" fill="none" stroke="#3d4571" stroke-miterlimit="10" stroke-width="2"/>
+        <rect id="Rectangle_26417" data-name="Rectangle 26417" width="3.338" height="3.338" transform="translate(10.008 3.375)" fill="none" stroke="#3d4571" stroke-miterlimit="10" stroke-width="2"/>
+        <rect id="Rectangle_26418" data-name="Rectangle 26418" width="3.338" height="3.338" transform="translate(3.55 9.532)" fill="none" stroke="#3d4571" stroke-miterlimit="10" stroke-width="2"/>
+        <rect id="Rectangle_26419" data-name="Rectangle 26419" width="3.338" height="3.338" transform="translate(10.008 9.532)" fill="none" stroke="#3d4571" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

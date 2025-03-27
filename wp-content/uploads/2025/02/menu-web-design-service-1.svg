@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="49" viewBox="0 0 46 49">
+  <defs>
+    <clipPath id="clip-menu-web-design-service">
+      <rect width="46" height="49"/>
+    </clipPath>
+  </defs>
+  <g id="menu-web-design-service" clip-path="url(#clip-menu-web-design-service)">
+    <g id="Group_526" data-name="Group 526" transform="translate(11.041 15.152)">
+      <rect id="Rectangle_26262" data-name="Rectangle 26262" width="23.01" height="19.723" transform="translate(0.265 -0.013)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="1.6"/>
+      <line id="Line_190" data-name="Line 190" x2="23.35" transform="translate(0.043 2.881)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="1.6"/>
+      <rect id="Rectangle_26263" data-name="Rectangle 26263" width="15.778" height="2.63" transform="translate(3.552 5.904)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="1.6"/>
+      <rect id="Rectangle_26264" data-name="Rectangle 26264" width="3.287" height="4.602" transform="translate(3.552 11.821)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="1.6"/>
+      <rect id="Rectangle_26265" data-name="Rectangle 26265" width="3.287" height="4.602" transform="translate(10.127 11.821)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="1.6"/>
+      <path id="Path_346" data-name="Path 346" d="M538.857,115.918l-.758,1.018-.008-.026L536.941,113l3.863.984-.894.848Z" transform="translate(-521.029 -101.095)" fill="none" stroke="#3e4570" stroke-miterlimit="10" stroke-width="1.6"/>
+    </g>
+  </g>
+</svg>

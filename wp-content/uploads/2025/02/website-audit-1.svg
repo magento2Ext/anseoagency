@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="49" viewBox="0 0 46 49">
+  <defs>
+    <clipPath id="clip-website-audit-1">
+      <rect width="46" height="49"/>
+    </clipPath>
+  </defs>
+  <g id="website-audit-1" clip-path="url(#clip-website-audit-1)">
+    <g id="Group_1" transform="translate(-300.5 -645.2)">
+      <g id="Group_651" transform="translate(-515 -534)">
+        <path id="Path_514" d="M822.5,1209.9v-19.7h31.9v19.7" fill="none" stroke="#57d6ed" stroke-width="2"/>
+        <path id="Path_515" d="M818.5,1212.3h39.6l-3.9,4.2H821.9Z" fill="none" stroke="#57d6ed" stroke-width="2"/>
+      </g>
+      <g id="Group_656" transform="translate(-513.403 -534)">
+        <line id="Line_147" x1="3.6" y1="3.9" transform="translate(840.2 1205.2)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+        <circle id="Ellipse_46" cx="5.8" cy="5.8" r="5.8" transform="translate(830.2 1195.2)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

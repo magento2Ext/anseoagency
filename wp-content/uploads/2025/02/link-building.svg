@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="49" viewBox="0 0 46 49">
+  <g id="Group_724" data-name="Group 724" transform="translate(1988 125)">
+    <rect id="Rectangle_26425" data-name="Rectangle 26425" width="46" height="49" transform="translate(-1988 -125)" fill="none"/>
+    <g id="Group_723" data-name="Group 723" transform="translate(-2798 -1668.324)">
+      <g id="Group_553" data-name="Group 553" transform="translate(815 1549.324)">
+        <path id="Path_397" data-name="Path 397" d="M438.185,474.629a7.092,7.092,0,0,1,1.357-8.129l5-5.1a7.089,7.089,0,0,1,10.026,0h0a7.089,7.089,0,0,1,0,10.026h0l-5,5.1a7.1,7.1,0,0,1-8.136,1.355" transform="translate(-419.644 -459.324)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_398" data-name="Path 398" d="M437.242,482.088a7.092,7.092,0,0,1-1.357,8.129l-5,5.1a7.091,7.091,0,0,1-10.027,0h0a7.091,7.091,0,0,1,0-10.027l5-5.1a7.091,7.091,0,0,1,8.136-1.355" transform="translate(-418.784 -460.189)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_226" data-name="Line 226" x1="14.64" y2="14.489" transform="translate(11.205 11.295)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_227" data-name="Line 227" x1="7.036" y1="0.695" transform="translate(1.69 11.892)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_229" data-name="Line 229" x2="1.217" y2="6.966" transform="translate(11.133 0.684)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <g id="Group_612" data-name="Group 612" transform="translate(838.766 1573.528)">
+        <circle id="Ellipse_170" data-name="Ellipse 170" cx="6.242" cy="6.242" r="6.242" transform="translate(0 0)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_269" data-name="Line 269" y2="7.127" transform="translate(6.242 2.583)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_270" data-name="Line 270" x2="7.127" transform="translate(2.678 6.146)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

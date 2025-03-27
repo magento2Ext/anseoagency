@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="49" viewBox="0 0 46 49">
+  <g id="Group_739" data-name="Group 739" transform="translate(-814 -4562)">
+    <rect id="Rectangle_26425" data-name="Rectangle 26425" width="46" height="49" transform="translate(814 4562)" fill="none"/>
+    <g id="Group_738" data-name="Group 738" transform="translate(-4 3391)">
+      <g id="Group_602" data-name="Group 602" transform="translate(824 1179.504)">
+        <path id="Path_404" data-name="Path 404" d="M520.239,603.668h9.383v13.3h-9.383" transform="translate(-507.224 -595.537)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_414" data-name="Path 414" d="M492,632.534h25.1" transform="translate(-492 -611.1)" fill="none" stroke="#57d6ed" stroke-width="2"/>
+        <path id="Path_415" data-name="Path 415" d="M498.04,586.026h10.009V607.46H498.04Z" transform="translate(-495.256 -586.026)" fill="none" stroke="#57d6ed" stroke-width="2"/>
+        <path id="Path_408" data-name="Path 408" d="M525.674,613.179h4.375" transform="translate(-510.154 -600.665)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_409" data-name="Path 409" d="M525.674,619.973h4.375" transform="translate(-510.154 -603.387)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_411" data-name="Path 411" d="M503.933,619.137h4.375" transform="translate(-498.433 -602.936)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_412" data-name="Path 412" d="M503.933,597.4h4.375" transform="translate(-498.433 -589.333)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_413" data-name="Path 413" d="M503.933,604.191h4.375" transform="translate(-498.433 -592.055)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+      <g id="Group_568" data-name="Group 568" transform="translate(832.817 1174)">
+        <line id="Line_147" data-name="Line 147" x1="8.545" y1="12.953" transform="translate(18.319 30.331)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Ellipse_46" data-name="Ellipse 46" d="M512.186,575.8a16.683,16.683,0,1,1-1.056,29.361" transform="translate(-511.13 -574.083)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

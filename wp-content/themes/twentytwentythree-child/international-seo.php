@@ -107,152 +107,109 @@ if ($image || $heading || $content): ?>
 			</section>
 
 <section class="seoprocess_sec margin-100px scroll-view" id="seo_processsection">
-		<div class="wrapper">
-			<h3><?php the_field('google_seo_process_group_google_seo_heading');?></h3>
-            <div class="main-seoinsight">
-			<div class="semititle"><?php the_field('google_seo_process_group_google_seo_process_subheading');?></div>
-			<div class="sec_absolutetxt"><?php the_field('google_seo_process_group_google_seo_process_content');?></div>
-        </div>
-			<div class="processcontainer" data-x="0" data-activeprocess="1">
-						
-						<?php
-// Check if the ppc_process_group field exists and contains data
-if( have_rows('google_seo_process_group') ):
-    // Loop through the rows of data in ppc_process_group
-    while( have_rows('google_seo_process_group') ) : the_row();
+   <div class="wrapper">
+      <h3><?php the_field('google_seo_process_group_google_seo_heading','option'); ?></h3>
+      <div class="main-seoinsight">
+         <div class="semititle"><?php the_field('google_seo_process_group_google_seo_process_subheading','option'); ?></div>
+         <div class="sec_absolutetxt"><?php the_field('google_seo_process_group_google_seo_process_content','option'); ?></div>
+      </div>
 
-        // Check if there are rows in the repeater field
-        if( have_rows('google_seo_process_repeater') ): ?>
-            <div class="processcont_left scrollbar" id="style-3">
-                <ul class="processlistbox force-overflow scroll-view-tabs" data-active_class="active">
-                    <?php
-                    // Loop through the repeater field rows
-                    $count = 1; // Counter for active class logic
-                    while( have_rows('google_seo_process_repeater') ) : the_row();
-                        // Get the subfield values
-                        $process_number = get_sub_field('google_seo_process_number');
-                        $process_text = get_sub_field('google_seo_process_text');
+      <div class="processcontainer" data-x="0" data-activeprocess="1">
+         <?php if( have_rows('google_seo_process_group','option') ): 
+            while( have_rows('google_seo_process_group','option') ) : the_row();
+               if( have_rows('google_seo_process_repeater','option') ): ?>
+                  <!-- Left Section (process steps) -->
+                  <div class="processcont_left scrollbar" id="style-3">
+                     <ul class="processlistbox force-overflow scroll-view-tabs" data-active_class="active">
+                        <?php 
+                        $count = 1;
+                        while( have_rows('google_seo_process_repeater','option') ) : the_row(); 
+                           $process_number = get_sub_field('google_seo_process_number');
+                           $process_text = get_sub_field('google_seo_process_text');
                         ?>
-                        <li class="<?php echo ($count == 1) ? 'active' : ''; ?>">
-                            <a href="javascript:void(0);">
-                                <span><?php echo esc_html($process_number); ?></span>
-                                <div class="processname">
-                                    <?php
-                                    // Display process text, handle if there are links
-                                    echo wp_kses_post($process_text);
-                                    ?>
-                                </div>
-                            </a>
-                        </li>
-                        <?php
-                        $count++; // Increment the counter
-                    endwhile;
-                    ?>
-                </ul>
-            </div>
-        <?php endif;
+                           <li class="<?php echo ($count == 1) ? 'active' : ''; ?>">
+                              <a href="javascript:void(0);">
+                                 <span><?php echo esc_html($process_number); ?></span>
+                                 <div class="processname">
+                                    <?php echo wp_kses_post($process_text); ?>
+                                 </div>
+                              </a>
+                           </li>
+                        <?php 
+                        $count++; 
+                        endwhile; ?>
+                     </ul>
+                  </div>
 
-    endwhile;
-endif;
-?>
-<?php
-// Check if the ppc_process_group field exists and contains data
-if( have_rows('google_seo_process_group') ):
-    // Loop through the rows of data in ppc_process_group
-    while( have_rows('google_seo_process_group') ) : the_row();
-
-        // Check if there are rows in the repeater field
-        if( have_rows('google_seo_process_repeater') ): ?>
-            <div class="processcont_right scroll-view-tabs-content">
-
-                    <?php
-                    // Loop through the repeater field rows
-                    $count = 1; // Counter for active class logic
-                    while( have_rows('google_seo_process_repeater') ) : the_row();
-                        // Get the subfield values
+                  <!-- Right Section (process details) -->
+                  <div class="processcont_right scroll-view-tabs-content">
+                     <?php 
+                     while( have_rows('google_seo_process_repeater','option') ) : the_row();
                         $process_detail_heading = get_sub_field('google_seo_process_detail_heading');
                         $process_detail_content = get_sub_field('google_seo_process_detail_content');
                         $process_detail_image = get_sub_field('google_seo_detail_image');
-                        ?>
+                     ?>
                         <div class="replacecontent">
-                	<div class="processinfo_left ptag">
-                           <div class="sectiontitle"><?php echo esc_html($process_detail_heading); ?></div>
-                           <p><?php echo wp_kses_post($process_detail_content); ?></p>
+                           <div class="processinfo_left ptag">
+                              <div class="sectiontitle"><?php echo esc_html($process_detail_heading); ?></div>
+                              <p><?php echo wp_kses_post($process_detail_content); ?></p>
+                           </div>
+                           <div class="processimg_right">
+                              <?php if( $process_detail_image ): ?>
+                                 <img src="<?php echo esc_url($process_detail_image['url']); ?>" alt="<?php echo esc_attr($process_detail_image['alt']); ?>">
+                              <?php endif; ?>
+                           </div>
                         </div>
-                        <div class="processimg_right">
-                        	<?php
-			
-    						echo '<img src="' . esc_url($process_detail_image['url']) . '" alt="' . esc_attr($process_detail_image['alt']) . '">';
-			
- 							?>
-                        </div>
-                    </div>
-                        <?php
-                    endwhile;
-                    ?>
-                </div>
-            </div>
-        <?php endif;
-
-    endwhile;
-endif;
-?>
-<div class="clearfix"></div>
-
-<?php 
-// Check if the group field 'ppc_process_group' exists
-if (have_rows('google_seo_process_group')) : 
-  // Access the group field
-  while (have_rows('google_seo_process_group')) : the_row(); 
-    // Check if the repeater field 'ppc_process_repeater' exists
-    if (have_rows('google_seo_process_repeater')) : ?>
-      <div class="processaccordioncontainer">
-        <!-- Service detail accordion start -->
-        <div class="accordion-demo">
-          <?php 
-          // Loop through the repeater field
-          while (have_rows('google_seo_process_repeater')) : the_row(); 
-            // Subfields in the repeater
-            $step_number = get_sub_field('google_seo_process_number'); // Step Number
-            $step_title = get_sub_field('google_seo_process_text'); // Step Title
-            $step_header = get_sub_field('google_seo_process_detail_heading'); // Section Header
-            $step_description = get_sub_field('google_seo_process_detail_content'); // Description (WYSIWYG)
-            $step_image = get_sub_field('google_seo_detail_image'); // Image (URL)
-
-          ?>
-          <div class="accordion_in acc_active">
-            <div class="acc_head">
-              <span><?php echo esc_html($step_number); ?></span>
-             <?php echo esc_html(strip_tags($step_title)); ?>
-            </div>
-            <div class="acc_content">
-              <div class="replacecontent">
-                <div class="processinfo_left ptag">
-                  <div class="sectiontitle"><?php echo esc_html($step_header); ?></div>
-                  <p><?php echo wp_kses_post($step_description); ?></p>
-                </div>
-                <div class="processimg_right">
-                 <?php if ($step_image) {
-            echo '<img src="' . esc_url($step_image['url']) . '" alt="' . esc_attr($step_image['alt']) . '">';
-            }?>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-          <?php endwhile; ?>
-        </div>
-        <!-- Service detail accordion end -->
+                     <?php endwhile; ?>
+                  </div>
+               <?php endif; ?>
+            <?php endwhile; 
+         endif; ?>
       </div>
-    <?php endif; 
-  endwhile; 
-endif; 
-?>
 
+      <div class="clearfix"></div>
 
-				</div>
-			</div>
-	</section>
+      <!-- Accordion Section -->
+      <?php if (have_rows('google_seo_process_group','option')) : ?>
+         <div class="processaccordioncontainer">
+            <div class="accordion-demo">
+               <?php while (have_rows('google_seo_process_group','option')) : the_row(); 
+                  if (have_rows('google_seo_process_repeater','option')) : 
+                     while (have_rows('google_seo_process_repeater','option')) : the_row(); 
+                        $step_number = get_sub_field('google_seo_process_number');
+                        $step_title = get_sub_field('google_seo_process_text');
+                        $step_header = get_sub_field('google_seo_process_detail_heading');
+                        $step_description = get_sub_field('google_seo_process_detail_content');
+                        $step_image = get_sub_field('google_seo_detail_image');
+               ?>
+                  <div class="accordion_in acc_active">
+                     <div class="acc_head">
+                        <span><?php echo esc_html($step_number); ?></span>
+                        <?php echo esc_html(strip_tags($step_title)); ?>
+                     </div>
+                     <div class="acc_content">
+                        <div class="replacecontent">
+                           <div class="processinfo_left ptag">
+                              <div class="sectiontitle"><?php echo esc_html($step_header); ?></div>
+                              <p><?php echo wp_kses_post($step_description); ?></p>
+                           </div>
+                           <div class="processimg_right">
+                              <?php if ($step_image): ?>
+                                 <img src="<?php echo esc_url($step_image['url']); ?>" alt="<?php echo esc_attr($step_image['alt']); ?>">
+                              <?php endif; ?>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               <?php endwhile; 
+                  endif; 
+               endwhile; 
+            endif; ?>
+         </div>
+      </div>
+   </div>
+</section>
+
 	
 		<section class="seocasestudy_sec mobilehide margin-100px slider_hidden" id="seo_casestudy">
     <div class="wrapper" bis_skin_checked="1">

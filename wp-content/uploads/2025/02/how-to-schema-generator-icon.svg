@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="49" viewBox="0 0 46 49">
+  <g id="Group_688" data-name="Group 688" transform="translate(2954 -2831)">
+    <rect id="Rectangle_26398" data-name="Rectangle 26398" width="46" height="49" transform="translate(-2954 2831)" fill="none"/>
+    <g id="Group_687" data-name="Group 687" transform="translate(-3235 261)">
+      <path id="Path_599" data-name="Path 599" d="M16.292,10.878,8.646,15.549,1,10.878V1H16.292Z" transform="translate(295 2570)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_600" data-name="Path 600" d="M16.292,42.676,8.646,47.347,1,42.676V31.008l7.646,4.578,7.646-4.578V42.676Z" transform="translate(295 2553.73)" fill="none" stroke="#3e4571" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_601" data-name="Path 601" d="M16.292,73.63,8.646,78.3,1,73.63V60.638l7.646,4.578,7.646-4.578V73.63Z" transform="translate(295 2539.347)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <text id="_1" data-name="1" transform="translate(301.5 2579.79)" fill="#3e4571" font-size="7" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+      <text id="_2" data-name="2" transform="translate(300.923 2596.797)" fill="#3e4571" font-size="7" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">2</tspan></text>
+      <text id="_3" data-name="3" transform="translate(300.923 2612.91)" fill="#3e4571" font-size="7" font-family="Rubik-Bold, Rubik" font-weight="700"><tspan x="0" y="0">3</tspan></text>
+    </g>
+  </g>
+</svg>

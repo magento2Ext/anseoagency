@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="49" viewBox="0 0 46 49">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_321" data-name="Rectangle 321" width="42" height="36" transform="translate(-0.089 0.184)" fill="none" stroke="#707070" stroke-width="2"/>
+    </clipPath>
+    <clipPath id="clip-kitchen-renovation">
+      <rect width="46" height="49"/>
+    </clipPath>
+  </defs>
+  <g id="kitchen-renovation" clip-path="url(#clip-kitchen-renovation)">
+    <g id="Group_1504" data-name="Group 1504" transform="translate(2.089 4.816)">
+      <g id="Group_1501" data-name="Group 1501">
+        <g id="Group_1500" data-name="Group 1500" clip-path="url(#clip-path)">
+          <line id="Line_95" data-name="Line 95" y2="15" transform="translate(27.911 20.184)" fill="none" stroke="#3d4470" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Line_96" data-name="Line 96" y2="15" transform="translate(13.911 20.184)" fill="none" stroke="#3d4470" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+      <rect id="Rectangle_322" data-name="Rectangle 322" width="8" height="5" transform="translate(16.911 27.184)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_97" data-name="Line 97" x2="2" transform="translate(15.911 23.184)" fill="none" stroke="#3d4470" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_98" data-name="Line 98" x2="2" transform="translate(19.911 23.184)" fill="none" stroke="#3d4470" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_99" data-name="Line 99" x2="2" transform="translate(23.911 23.184)" fill="none" stroke="#3d4470" stroke-miterlimit="10" stroke-width="2"/>
+      <g id="Group_1503" data-name="Group 1503">
+        <g id="Group_1505" data-name="Group 1505">
+          <path id="Path_2770" data-name="Path 2770" d="M20.546,0V4.546L16,10.91v.909H28.729V10.91L24.183,4.546V0" transform="translate(-1.453)" fill="none" stroke="#3d4470" stroke-miterlimit="10" stroke-width="2"/>
+          <rect id="Rectangle_323" data-name="Rectangle 323" width="10" height="6" transform="translate(30.911 6.184)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+          <rect id="Rectangle_324" data-name="Rectangle 324" width="10" height="6" transform="translate(0.911 6.184)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Line_100" data-name="Line 100" x2="13" transform="translate(27.911 25.184)" fill="none" stroke="#3d4470" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Line_101" data-name="Line 101" x2="13" transform="translate(0.911 24.184)" fill="none" stroke="#3d4470" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Path_2771" data-name="Path 2771" d="M0,0H13" transform="translate(0.911 30.184)" fill="none" stroke="#3d4470" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_325" data-name="Rectangle 325" width="40" height="15" transform="translate(3 25)" fill="none" stroke="#57d6ed" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>
