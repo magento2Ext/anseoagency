@@ -372,7 +372,7 @@ if ($country == 'India') {
     } else {
         $conversion_rate = 83; // Fallback rate if API request fails
     }
-
+    echo 'hello' . $conversion_rate;
     // Convert USD to INR
     $service_price = $service_price * $conversion_rate;
 } else {
