@@ -1,6 +1,6 @@
 # Ignore WordPress core files
 /wp-admin/
-/wp-includes/
+/wp-includes/ 
 
 # Ignore the wp-config.php file (contains sensitive data like database credentials)
 wp-config.php
